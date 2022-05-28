@@ -1,0 +1,39 @@
+body {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+button {
+    background-color: mediumseagreen;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', sans-serif;
+    box-shadow: 5px black;
+}
+
+.custom-fortune {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-name,
+#add-fortune {
+    height: 20px;
+    width: 20%;
+}
+
+#edit-name-input {
+    height: 20px;
+    width: 20%;
+    margin-top: 45px;
+}
+
+#addFortuneButton,
+#getCustomFortune,
+#edit-name-btn,
+#delete-button {
+    margin-top: 10px;
+    height: 25px;
+    width: 20%;
+}
